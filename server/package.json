@@ -1,0 +1,30 @@
+{
+	"name": "server",
+	"version": "0.1.0",
+	"description": "Simple Blog",
+	"main": "./src/index.js",
+	"scripts": {
+		"start": "nodemon src/index.js",
+		"dev": "concurrently \"nodemon src/index.js\" \"cd ../webapp && npm start\"",
+		"dev-trace": "node --trace-warnings src/index.js",
+		"test": "jest"
+	},
+	"author": "repetitioestmaterstudiorum",
+	"license": "GPLV3",
+	"dependencies": {
+		"axios": "^0.24.0",
+		"concurrently": "^6.3.0",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"lodash": "^4.17.21",
+		"lorem-ipsum": "^2.0.4",
+		"nodemon": "^2.0.14",
+		"uuid4": "^2.0.2"
+	},
+	"devDependencies": {
+		"jest": "^27.3.1"
+	},
+	"jest": {
+		"verbose": true
+	}
+}

@@ -42,4 +42,4 @@ I only wrote one unit test here. I think it would make more sense to use Cypress
 
 ## demo link
 
-https://powerful-thicket-55342.herokuapp.com/
+[https://simple-cra-blog.herokuapp.com/](https://simple-cra-blog.herokuapp.com/)
